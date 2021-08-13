@@ -179,6 +179,11 @@ button.Complete_btn {
 }
 @media all and (min-width: 1200px) {
     .todoDiv {
+        width: 65%;
+    }
+
+    .To-Do-content {
         width: 50%;
+        text-align: center;
     }
 }
