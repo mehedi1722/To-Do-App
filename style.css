@@ -23,6 +23,7 @@ a{
     top: 50%;
     border-radius: 5px;
     transform: translate(-50%, -50%);
+    transition: .5s ease-out;
 }
 
 .To-Do-content h1 {
@@ -119,4 +120,14 @@ button.Complete_btn {
 
 .todoDiv {
     margin-bottom: 10px;
+}
+
+.completed_task {
+    background-color: rgb(0 255 0 / 61%);
+}
+
+.fall{
+    transition: .4s ease-in-out;
+    transform: translateY(8rem) rotateZ(40deg);
+    opacity: 0;
 }
