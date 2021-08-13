@@ -131,3 +131,54 @@ button.Complete_btn {
     transform: translateY(8rem) rotateZ(40deg);
     opacity: 0;
 }
+
+
+@media all and (min-width: 320px) {
+    .To-Do-content {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .To-Do-content h1 {
+        font-size: 25px;
+    }
+    
+    .input_section {
+        width: 100%;
+    }
+    
+    .input_section input {
+        margin: 0 0 20px 0px;
+    }
+    
+    
+    ul#toDoList {
+        padding: 0;
+        width: 100%;
+    }
+}
+@media all and (min-width: 576px) {
+    .todoDiv {
+        width: 80%;
+        margin: 15px auto;
+    }
+}
+@media all and (min-width: 768px) {
+    .To-Do-content {
+        width: 80%;
+    }
+    
+    .todoDiv {
+        width: 70%;
+    }
+}
+@media all and (min-width: 992px) {
+    .todoDiv {
+        width: 60%;
+    }
+}
+@media all and (min-width: 1200px) {
+    .todoDiv {
+        width: 50%;
+    }
+}
